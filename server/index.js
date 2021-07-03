@@ -26,7 +26,7 @@ require('./models/user');
 require('./models/booking');
 require('./models/cloudinary-image');
 
-const DB_URI = mongodb+srv://elderhomes:ElderHomes1234@cluster0.pv6jq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority;
+const DB_URI = "mongodb+srv://elderhomes:ElderHomes1234@cluster0.pv6jq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
 // Port
 const PORT = process.env.PORT || 3002;
